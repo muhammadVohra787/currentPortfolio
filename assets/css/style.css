@@ -512,7 +512,8 @@ section {
   z-index: 1;
 }
 .portfolio .portfolio-wrap img{
-  border: #000022 2px solid;
+  border: rgb(221, 221, 221) 2px solid;
+
 }
 .portfolio .portfolio-wrap::before {
   content: "";

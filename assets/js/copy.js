@@ -25,7 +25,7 @@ function copyitem(linkCopy) {
   alertDiv.style.fontSize = "1.15rem";
   alertDiv.setAttribute("role", "alert");
   alertDiv.innerHTML = linkCopy
-    ? "Link copied!" + '<i class="bi bi-link-45deg"></i>'
+    ? "GitHub Link copied!" + '<i class="bi bi-link-45deg"></i>'
     : "Link needs to be updated";
   document.getElementById("alerts").appendChild(alertDiv);
 
